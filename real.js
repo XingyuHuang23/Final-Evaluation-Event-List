@@ -68,8 +68,8 @@
       document.getElementById(id).parentElement.remove();
     }
   
-    renderNewEvent(newTodo) {
-      this.eventList.appendChild(this.createEventElement(newTodo));
+    renderNewEvent(newEvents) {
+      this.eventList.appendChild(this.createEventElement(newEvents));
     }
 
     renderNewForm(){
@@ -137,12 +137,12 @@
       return this.#events;
     }
   
-    setEvents(newTodos) {
-      this.#events = newTodos;
+    setEvents(newEvents) {
+      this.#events = newEvents;
     }
   
-    addEvent(newTodo) {
-      this.#events.push(newTodo);
+    addEvent(newEvents) {
+      this.#events.push(newEvents);
     }
   
     deleteEvent(id) {
