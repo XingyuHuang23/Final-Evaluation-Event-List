@@ -3,7 +3,7 @@
     gap:10px;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
 }
 .event{
     width: 96%;
@@ -51,6 +51,9 @@ body {
 .event__name {
 width: 300px;
 }
+.name_new{
+    width: 150px;
+}
 .event__start{
     width: 100px;
     position: relative;
@@ -62,7 +65,55 @@ width: 300px;
     left: 6px;
 }
 .event__actions{
-    width: 112px;
+    width: 120px;
     position: relative;
     left: 96px;
+}
+.event__del-btn {
+    background-color: #d74047;
+    color: white;
+    border: none;
+    width: 57px;
+    height: 30px;
+    border-radius: 7px;
+}
+.event__edit-btn{
+    background-color: #008dbf;
+    color: white;
+    border: none;
+    width: 57px;
+    height: 30px;
+    border-radius: 7px;
+}
+.event__save-btn{
+    background-color: #008dbf;
+    color: white;
+    border: none;
+    width: 57px;
+    height: 30px;
+    border-radius: 7px;
+}
+.event__cancel-btn{
+    background-color: #d74047;
+    color: white;
+    border: none;
+    width: 57px;
+    height: 30px;
+    border-radius: 7px;
+}
+.event__edit_save-btn {
+    background-color: #008dbf;
+    color: white;
+    border: none;
+    width: 57px;
+    height: 30px;
+    border-radius: 7px;
+}
+.event__edit_cancel-btn{
+    background-color: #d74047;
+    color: white;
+    border: none;
+    width: 57px;
+    height: 30px;
+    border-radius: 7px;
 }
